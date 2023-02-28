@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--====================================== CSS ====================================== -->
+    <linK rel="stylesheet" href="assets/style.css">
+
+     <!--====================================== FAVICONS ====================================== -->
+    <link rel="icon" href="img/favicon-16x16.png">
+
+    <!--====================================== FONTS ====================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap" rel="stylesheet">
+    
+
+    <!--====================================== FONTAWESOME ====================================== -->
+    <script src="https://kit.fontawesome.com/b4d856d404.js" crossorigin="anonymous"></script>
+    
+    <title>Pokedex</title>
+</head>
+<body>
+
+    <main>
+        
+       <img src="#" alt="pokemon" class="pokemon-img">
+
+        <h1 class="pokemon-data">
+            <span class="pokemon-id"></span>-
+            <span class="pokemon-name"></span>
+        </h1>
+
+        <form class="form">
+            <input type="search" class="input-search" placeholder="Name or Number" required>
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev"><i class="fa-solid fa-arrow-left"></i> Prev </button>
+            <button class="button btn-next">Next <i class="fa-solid fa-arrow-right"></i> </button>
+        </div>
+        
+        <div class="audio">
+            <audio src="media/pokemonSong.mp3"></audio>
+            <button class="button-audio btn-audio"><i class="fa-solid fa-play"></i></button>
+        </div>
+
+        <img class="pokedex" src="img/pokedex.png" alt="pokedex">
+    </main>
+    <!--====================================== MAIN JS ====================================== -->
+    <script src="assets/main.js"></script>
+</body>
+</html>
